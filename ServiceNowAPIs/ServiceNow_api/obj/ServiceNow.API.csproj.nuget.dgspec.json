@@ -1,0 +1,365 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow_api\\ServiceNow.API.csproj": {}
+  },
+  "projects": {
+    "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Data\\ServiceNow.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Data\\ServiceNow.Data.csproj",
+        "projectName": "ServiceNow.Data",
+        "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Data\\ServiceNow.Data.csproj",
+        "packagesPath": "C:\\Users\\dung.bui\\.nuget\\packages\\",
+        "outputPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dung.bui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Logic\\ServiceNow.Logic.csproj": {
+                "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Logic\\ServiceNow.Logic.csproj"
+              },
+              "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj": {
+                "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Domain\\ServiceNow.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Domain\\ServiceNow.Domain.csproj",
+        "projectName": "ServiceNow.Domain",
+        "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Domain\\ServiceNow.Domain.csproj",
+        "packagesPath": "C:\\Users\\dung.bui\\.nuget\\packages\\",
+        "outputPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dung.bui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj": {
+                "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Logic\\ServiceNow.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Logic\\ServiceNow.Logic.csproj",
+        "projectName": "ServiceNow.Logic",
+        "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Logic\\ServiceNow.Logic.csproj",
+        "packagesPath": "C:\\Users\\dung.bui\\.nuget\\packages\\",
+        "outputPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dung.bui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Domain\\ServiceNow.Domain.csproj": {
+                "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Domain\\ServiceNow.Domain.csproj"
+              },
+              "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj": {
+                "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj",
+        "projectName": "ServiceNow.Models",
+        "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj",
+        "packagesPath": "C:\\Users\\dung.bui\\.nuget\\packages\\",
+        "outputPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dung.bui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow_api\\ServiceNow.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow_api\\ServiceNow.API.csproj",
+        "projectName": "ServiceNow.API",
+        "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow_api\\ServiceNow.API.csproj",
+        "packagesPath": "C:\\Users\\dung.bui\\.nuget\\packages\\",
+        "outputPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow_api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dung.bui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Data\\ServiceNow.Data.csproj": {
+                "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Data\\ServiceNow.Data.csproj"
+              },
+              "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj": {
+                "projectPath": "D:\\web\\ServiceNow-Wrapper-dotNetCore\\ServiceNowAPIs\\ServiceNow.Models\\ServiceNow.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[11.18.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
